@@ -1,27 +1,29 @@
 {
   "name": "kingsukh-guesthouse",
   "version": "0.0.1",
-  "type": "module",
+  "private": true,
+  "description": "King Sukh Guest House official website",
+  "homepage": "https://01MishraAbhishek.github.io/Kingsukh-Guesthouse",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
-    "framer-motion": "^12.23.6",
-    "lucide-react": "^0.525.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^5.5.0",
-    "react-image-lightbox": "^5.1.4",
-    "react-scroll": "^1.9.3",
-    "yet-another-react-lightbox": "^3.25.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^4.12.0",
+    "react-scroll": "^1.8.9",
+    "react-modal": "^3.16.1",
+    "yet-another-react-lightbox": "^3.8.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.7.0",
-    "autoprefixer": "^10.4.12",
-    "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8",
-    "vite": "^4.5.14"
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1",
+    "vite": "^4.5.0"
   }
 }
