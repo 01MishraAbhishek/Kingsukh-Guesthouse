@@ -54,7 +54,7 @@ function Rooms() {
               <img
                 src={room.image}
                 alt={room.title}
-                onError={(e) => (e.target.src = "/fallback.jpg")}
+                onError={(e) => (e.target.src = "/images/fallback.jpg")}
                 className="w-full h-48 object-cover rounded mb-3 cursor-pointer hover:scale-105 transition duration-300"
                 onClick={() => {
                   setIsOpen(true);
