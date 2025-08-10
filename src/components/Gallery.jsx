@@ -100,7 +100,7 @@ const Gallery = () => {
               <img
                 src={item.img}
                 alt={item.title}
-                onError={(e) => (e.target.src = "/fallback.jpg")}
+                onError={(e) => (e.target.src = "/images/fallback.jpg")}
                 className="w-full h-56 object-cover hover:scale-105 transition duration-300"
               />
               <div className="p-4 text-center">
